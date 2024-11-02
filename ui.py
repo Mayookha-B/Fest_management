@@ -4,7 +4,7 @@ from tkinter import messagebox
 
 # Database setup
 def setup_database():
-    
+
     conn = sqlite3.connect('college_fest.sql')
     cursor = conn.cursor()
     
@@ -71,7 +71,7 @@ root.title("College Fest Management System")
 setup_database()
 
 # Student Registration Section
-Label(root, text="Student Registration", font=("Arial", 14)).grid(row=0, columnspan=2, pady=10)
+Label(root, text="Student Registratio", font=("Arial", 14)).grid(row=0, columnspan=2, pady=10)
 
 Label(root, text="Name").grid(row=1, column=0, padx=10, pady=5, sticky=E)
 entry_name = Entry(root)
